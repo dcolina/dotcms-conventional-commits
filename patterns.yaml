@@ -1,0 +1,17 @@
+conventional-commits:
+  types:
+    - feat
+    - fix
+    - docs
+    - style
+    - refactor
+    - test
+    - chore
+  scopes:
+    - api
+    - auth
+    - ui
+    - db
+  description-pattern: "^[a-z].+"
+  allow-breaking-change: true
+  footer-pattern: "^BREAKING CHANGE: .+" 
